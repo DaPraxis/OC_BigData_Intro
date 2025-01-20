@@ -1,0 +1,20 @@
+[build]
+  # Build command to generate the Jekyll site
+  command = "bundle install && bundle exec jekyll build"
+  # Directory where the site is published
+  publish = "_site"
+
+[build.environment]
+  # Specify the Ruby version; use a supported version to avoid end-of-life issues
+  RUBY_VERSION = "2.7.7" # Replace with a supported version; 3.0.4 is deprecated
+  # Node.js version (optional, if Node is used for any dependencies)
+  NODE_VERSION = "16.20.0"
+
+[context.production.environment]
+  # Production environment variables for Jekyll
+  JEKYLL_ENV = "production"
+
+[context.deploy-preview]
+  # Optional settings for deploy previews
+  command = "bundle install && bundle exec jekyll build"
+  JEKYLL_ENV = "development"
