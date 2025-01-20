@@ -34,6 +34,8 @@ footer_content: 'Max Jiang &copy; 2025 <a rel="license" href="http://creativecom
 collections:
   staffers:
   modules:
+  dashboards:
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -47,6 +49,12 @@ defaults:
       type: modules
     values:
       layout: module
+  - scope:
+      path: ''
+      type: dashboards
+    values:
+      layout: dashboard
+      subpath: '/assets/images/dashboard/'
 
 compress_html:
   clippings: all
