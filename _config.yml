@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WEB 101
-tagline: Web Programming with HTML, CSS & Javascript
-description: WEB 101 Building Your First Academic Personal Website, 2025
+title: DATA 101
+tagline: Statistics, Big Data Dashboarding, and Career Exploration
+description: DATA 101 Building Your First Big Data Dashboard, 2025
 author: Max Jiang
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://https://fasttrackweb101.netlify.app' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://https://fasttrackbigdata101.netlify.app' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 google_site_verification: 'QclY_1udbdKts462GzFHLmFoaioICIQ16kjZumjRJIg'
 
